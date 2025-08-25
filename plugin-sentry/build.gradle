@@ -16,7 +16,7 @@ dependencies {
     compileOnly gradleApi()//gradle sdk
     compileOnly localGroovy()
     implementation project(path: ':privacy-annotation')
-    compileOnly 'com.android.tools.build:gradle:8.0.0'
+    compileOnly 'com.android.tools.build:gradle:8.5.2'
 
     def booster_version = '5.1.0'
     // Booster V7.1
